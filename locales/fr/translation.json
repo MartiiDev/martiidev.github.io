@@ -1,0 +1,162 @@
+{
+  "title": "Traduction",
+  "description": "Voici une liste de quelques-uns des projets que j'ai pu traduire.",
+  "langlevels": "Niveaux de langue (T1 2023) :",
+  "cecrl": "A1 (débutant) à C2 (bilingue)",
+  "jlpt": "N5 (débutant) à N1 (bilingue)",
+  "evaluation": "Auto-évalué sauf mention contraire.",
+  "workdescription": "Ce que j'ai fait",
+  "levels": [
+    {
+      "language": "Français",
+      "level": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "level": "CECRL C1",
+      "explanation": "$t(cecrl)",
+      "badge": {
+        "icon": "fa-badge-check",
+        "label": "Certifié Cambridge"
+      }
+    },
+    {
+      "language": "Espagnol",
+      "level": "CECRL B1",
+      "explanation": "$t(cecrl)"
+    },
+    {
+      "language": "Japonais",
+      "level": "JLPT N5",
+      "explanation": "$t(jlpt)"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Love and Country",
+      "genre": "Jeu vidéo",
+      "description": "Un roman visuel d'espionnage et de romance se déroulant pendant la première guerre mondiale.",
+      "workdescription": "Correction de dialogues en français",
+      "images": 1,
+      "nsfw": false,
+      "links": [
+        {
+          "name": "Site internet",
+          "url": "https://www.guhuhugames.com/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/guhuhugames"
+        }
+      ],
+      "history": [
+        {
+          "date": "26/10/2022",
+          "description": "Demo"
+        }
+      ]
+    },
+    {
+      "title": "Goodbye Eternity",
+      "genre": "Jeu vidéo",
+      "description": "Vous vous réveillez trente ans dans le passé, avec une chance de vous venger des personnes qui vous ont fait du mal et d'obtenir ce que vous avez toujours voulu.",
+      "workdescription": "Traduction français → anglais",
+      "images": 3,
+      "nsfw": true,
+      "links": [
+        {
+          "name": "itch.io",
+          "url": "https://extralife-nsfw.itch.io/extralife"
+        },
+        {
+          "name": "F95zone",
+          "url": "https://f95zone.to/threads/82497/"
+        }
+      ],
+      "history": [
+        {
+          "date": "15/09/2021",
+          "description": "Version 0.3"
+        },
+        {
+          "date": "25/01/2022",
+          "description": "Version 0.4"
+        },
+        {
+          "date": "09/04/2022",
+          "description": "Version 0.4.1"
+        },
+        {
+          "date": "11/06/2022",
+          "description": "Version 0.5"
+        },
+        {
+          "date": "26/08/2022",
+          "description": "Version 0.5.9"
+        },
+        {
+          "date": "28/11/2022",
+          "description": "Version 0.6"
+        }
+      ]
+    },
+    {
+      "title": "Lucie Adult Game",
+      "genre": "Jeu vidéo",
+      "description": "Déjouez les intrigues qui se trament dans votre compagnie, soyez sans pitié envers les méchants de l'histoire, et vivez ou non, une histoire d'amour avec Lucie !",
+      "workdescription": "Correction français → anglais",
+      "images": 3,
+      "nsfw": true,
+      "links": [
+        {
+          "name": "Site internet",
+          "url": "https://www.lucie-adult-game.com/"
+        },
+        {
+          "name": "F95zone",
+          "url": "https://f95zone.to/threads/60409/"
+        }
+      ],
+      "history": [
+        {
+          "date": "04/06/2021",
+          "description": "Épisode 3"
+        },
+        {
+          "date": "02/07/2021",
+          "description": "Contenus publicitaires"
+        }
+      ]
+    },
+    {
+      "title": "The Blackout",
+      "genre": "Jeu vidéo",
+      "description": "Après vous être évanoui pour une raison inconnue, vous essayez de comprendre ce qui vous est arrivé sans vous douter un seul instant que vous êtes sur le point de vivre une grande aventure !",
+      "workdescription": "Traduction français → anglais",
+      "images": 3,
+      "nsfw": true,
+      "links": [
+        {
+          "name": "F95zone",
+          "url": "https://f95zone.to/threads/91792/"
+        }
+      ],
+      "history": [
+        {
+          "date": "27/07/2021",
+          "description": "Version 0.2"
+        },
+        {
+          "date": "19/11/2021",
+          "description": "Version 0.3"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "author": "AfterLust (The Blackout)",
+      "review": "Je recommande Martii pour son service de traduction qui correspond totalement à mes attentes, sa traduction est fidèle, de qualité et est parfaitement adapté au contexte et à la situation. Super réactif, professionnel et rapide, je suis très satisfait du service et je ne peux que vous recommander ses services !"
+    }
+  ]
+}
