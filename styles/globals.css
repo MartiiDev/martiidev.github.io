@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,4 +6,13 @@
 @font-face {
     font-family: 'Aldrich', sans-serif;
     src: local('Aldrich'), url('Aldrich-Regular.ttf') format('truetype');
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Aldrich', sans-serif;
+    src: local('Aldrich'), url('Aldrich-Regular.ttf') format('truetype');
+>>>>>>> 4067b622b721f8c96eb82701d1fa8cdd3ca537df
 }

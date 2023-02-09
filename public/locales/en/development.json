@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "title": "Development",
   "description": "Here is a list of some of the different projects I have worked on.",
@@ -158,4 +159,166 @@
       ]
     }
   ]
+=======
+{
+  "title": "Development",
+  "description": "Here is a list of some of the different projects I have worked on.",
+  "notonly": "This is obviously a shortened list, as I can't list everything.",
+  "workdescription": "What I've done or used",
+  "startedOn": "Started on",
+  "skills": "Skills (Q1 2023):",
+  "skillset": [
+    {
+      "skill": "Frontend",
+      "description": "HTML5, CSS3, JS ES6 / Bootstrap, Tailwind"
+    },
+    {
+      "skill": "Backend",
+      "description": "PHP, mySQL, Python, Node.JS"
+    },
+    {
+      "skill": "Frameworks",
+      "description": "React, Next.JS, Express, React Native, Expo"
+    },
+    {
+      "skill": "Favorite stack",
+      "description": "React (Next.JS), Next-Auth, Tailwind, Prisma"
+    }
+  ],
+  "projects": [
+    {
+      "title": "In Love With a Goddess",
+      "genre": "Video game",
+      "description": "A really short visual novel about a man who fell in love with a cute goddess!",
+      "workdescription": "Python (Ren'Py), created to learn Ren'Py",
+      "images": 3,
+      "nsfw": false,
+      "links": [
+        {
+          "name": "itch.io",
+          "url": "https://martiis-novels.itch.io/in-love-with-a-goddess"
+        }
+      ],
+      "history": [
+        {
+          "date": "03/07/2021"
+        }
+      ]
+    },
+    {
+      "title": "Torii Games",
+      "genre": "Website",
+      "description": "Some online games for anime fans (blind test...).",
+      "workdescription": "Mostly JavaScript, some PHP",
+      "images": 2,
+      "nsfw": false,
+      "links": [
+        {
+          "name": "Website (French only)",
+          "url": "https://martiidev.github.io/toriigames"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/MartiiDev/toriigames"
+        }
+      ],
+      "history": [
+        {
+          "date": "17/12/2021"
+        }
+      ]
+    },
+    {
+      "title": "Super Mario Bros NES",
+      "genre": "Video game",
+      "description": "Pale replica of the original game running under PyGame.",
+      "workdescription": "Python (PyGame), assignment for IT class.",
+      "images": 7,
+      "nsfw": false,
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/MartiiDev/Super-Mario-Bros-Python"
+        }
+      ],
+      "history": [
+        {
+          "date": "01/04/2021"
+        }
+      ]
+    },
+    {
+      "title": "GeoFinder",
+      "genre": "Website",
+      "description": "A simple alternative to the popular online game GeoGuessr.",
+      "workdescription": "JavaScript",
+      "nsfw": false,
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/MartiiDev/geofinder"
+        }
+      ],
+      "history": [
+        {
+          "date": "01/04/2020"
+        }
+      ]
+    },
+    {
+      "title": "Bloggy",
+      "genre": "Website",
+      "description": "A small CMS to have a blog without database.",
+      "workdescription": "PHP",
+      "nsfw": false,
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/MartiiDev/Bloggy"
+        }
+      ],
+      "history": [
+        {
+          "date": "01/10/2018"
+        }
+      ]
+    },
+    {
+      "title": "Waifu'ed",
+      "genre": "Website",
+      "description": "A collection of famous people turned into girls in animes, games, and mangas.",
+      "workdescription": "Tailwind, Axios",
+      "nsfw": false,
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://martii.dev/waifued"
+        }
+      ],
+      "history": [
+        {
+          "date": "08/02/2023"
+        }
+      ]
+    },
+    {
+      "title": "AnimeMap",
+      "genre": "Website",
+      "description": "A map of real-world cities where animes take place",
+      "workdescription": "JavaScript, Leaflet",
+      "nsfw": false,
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://martii.dev/animemap"
+        }
+      ],
+      "history": [
+        {
+          "date": "13/01/2023"
+        }
+      ]
+    }
+  ]
+>>>>>>> 4067b622b721f8c96eb82701d1fa8cdd3ca537df
 }
