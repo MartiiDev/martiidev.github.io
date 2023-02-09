@@ -120,6 +120,42 @@
           "date": "01/10/2018"
         }
       ]
+    },
+    {
+      "title": "Waifu'ed",
+      "genre": "Website",
+      "description": "A collection of famous people turned into girls in animes, games, and mangas.",
+      "workdescription": "Tailwind, Axios",
+      "nsfw": false,
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://martii.dev/waifued"
+        }
+      ],
+      "history": [
+        {
+          "date": "08/02/2023"
+        }
+      ]
+    },
+    {
+      "title": "AnimeMap",
+      "genre": "Website",
+      "description": "A map of real-world cities where animes take place",
+      "workdescription": "JavaScript, Leaflet",
+      "nsfw": false,
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://martii.dev/animemap"
+        }
+      ],
+      "history": [
+        {
+          "date": "13/01/2023"
+        }
+      ]
     }
   ]
 }

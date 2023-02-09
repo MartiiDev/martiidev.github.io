@@ -16,7 +16,7 @@ const MyApp = ({ Component, pageProps }) => {
 	return (
 		<div className="drawer drawer-mobile">
         	<input id="main-menu" type="checkbox" className="drawer-toggle" />
-        	<div className="drawer-content">
+        	<div className="drawer-content flex flex-col content-around items-center">
 				<Navbar />
 
                 {router.route.split('/')[2] === "admin" ? (
@@ -25,13 +25,17 @@ const MyApp = ({ Component, pageProps }) => {
                 			<Sidebar />
                 		</div>
 
-                		<div className="grow">
+                		<div className="max-w-7xl grow">
                 			<Component {...pageProps} />
                 		</div>
                 	</div>
-                ) : <Component {...pageProps} />}
+                ) : (
+                	<div className="max-w-7xl grow">
+            			<Component {...pageProps} />
+            		</div>
+                )}
 
-				{/*<Footer />*/}
+				<Footer />
 			</div>
 
 			<Drawer />

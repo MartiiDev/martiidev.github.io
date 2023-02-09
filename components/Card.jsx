@@ -9,7 +9,7 @@ export default function Card({ project, type = "trad", className = "", first = f
 	const [showModal, setShowModal] = useState(false)
 	const [currentImage, setCurrentImage] = useState()
 	const [showImage, setShowImage] = useState()
-	const history = orderBy(project.history, [(h) => moment(h.date, "DD/MM/YYYY").toDate()], ["asc"])
+	const history = orderBy(project.history, [(h) => moment(h.date, "DD/MM/YYYY").toDate()], ["desc"])
     const { t } = useTranslation(['common', 'translation', 'development'])
     const { asPath } = useRouter()
 
@@ -43,14 +43,14 @@ export default function Card({ project, type = "trad", className = "", first = f
 			    </div>
 			</div>
 			
-			{showImage && <button onClick={() => setShowImage(null)} className="fixed z-[99999] left-0 top-0 w-screen h-screen bg-black grid place-content-center"><img src={"/images/"+type+"/" + showImage + ".jpg"} className="object-contain max-h-screen max-w-screen" /></button>}
+			{showImage && <button onClick={() => setShowImage(null)} className="fixed z-[99999] left-0 top-0 w-screen h-screen backdrop-blur-xl bg-black/50 grid place-content-center" title={t('toggleimage')}><img src={"/images/" + type + "/" + showImage + ".jpg"} className="object-contain max-h-screen max-w-screen" /></button>}
 			<div className={(showModal ? "opacity-100 visible pointer-events-auto" : "") + " modal modal-bottom sm:modal-middle"}>
 				<div className="modal-box max-h-screen translate-y-0">
 					{(project?.images && project?.images > 0) && (
 						<div className="mb-2">
 							<div className="carousel w-full">
-								<button onClick={() => setShowImage(currentImage)} className="group carousel-item w-full">
-							    	<img src={"/images/"+type+"/" + currentImage + ".jpg"} className="w-full" />
+								<button onClick={() => setShowImage(currentImage)} className="group carousel-item w-full" title={t('toggleimage')}>
+							    	<img src={currentImage ? ("/images/" + type + "/" + currentImage + ".jpg") : undefined} className="w-full" />
 								</button>
 							</div>
 							{project.images > 1 && (

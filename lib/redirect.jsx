@@ -2,6 +2,12 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import languageDetector from './languageDetector'
 
+
+export function Loading() {
+  return <p>Loading...</p>
+}
+
+
 export const useRedirect = (to) => {
   const router = useRouter()
   to = to || router.asPath
@@ -18,16 +24,16 @@ export const useRedirect = (to) => {
     router.replace('/' + detectedLng + to)
   })
 
-  return <><p>Redirection 1</p></>
+  return <Loading/>
 };
 
 export const Redirect = () => {
   useRedirect()
-  return <><p>Redirection 2</p></>
+  return <Loading/>
 }
 
 // eslint-disable-next-line react/display-name
 export const getRedirect = (to) => () => {
   useRedirect(to)
-  return <><p>Redirection 3</p></>
+  return <Loading/>
 }
