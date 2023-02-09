@@ -24,6 +24,7 @@ coverage
 .lock-wscript
 
 # Compiled binary addons (httpnodejs.orgapiaddons.html)
+out/
 buildRelease
 
 # Dependency directories
@@ -36,4 +37,3 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 .next
-out

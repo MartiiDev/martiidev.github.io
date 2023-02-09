@@ -1,10 +1,29 @@
+import Head from 'next/head'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import languageDetector from './languageDetector'
 
 
 export function Loading() {
-  return <p>Loading...</p>
+  return (
+    <>
+      <Head>
+        <title>Martii – Dev et traduction</title>
+      </Head>
+
+      <main className="grow">
+          <div className="md:p-10 relative">
+            <div className="hero h-[30rem]">
+              <div className="text-center hero-content">
+                  <div className="max-w-md">
+                      <i class="fa-duotone fa-spinner fa-fw fa-2xl fa-spin-pulse"></i>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </main>
+  </>
+  )
 }
 
 
