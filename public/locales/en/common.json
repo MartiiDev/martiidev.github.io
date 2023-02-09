@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "sitename": "Martii",
   "fullname": "Edgar C.",
@@ -16,23 +15,4 @@
   "toggleimage": "Click to view or close this image",
   "copied": "Copied!",
   "close": "Close"
-=======
-{
-  "sitename": "Martii",
-  "fullname": "Edgar C.",
-  "home": "Home",
-  "translation": "Translation",
-  "development": "Development",
-  "contact": "Contact",
-  "copyright": "All right reserved",
-  "colon": ": ",
-  "back": "Back",
-  "history": "History",
-  "description": "Description",
-  "nsfw": "NSFW",
-  "empty": "It seems that there are no projects to show for now. Check back later.",
-  "toggleimage": "Click to view or close this image",
-  "copied": "Copied!",
-  "close": "Close"
->>>>>>> 4067b622b721f8c96eb82701d1fa8cdd3ca537df
 }
