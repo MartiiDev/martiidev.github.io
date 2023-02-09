@@ -39,7 +39,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex items-center flex-none">
                     <Link href="/" className="px-2 flex-0 btn btn-ghost md:px-4">
-                        <div className="inline-block text-3xl font-title capitalize"><i className="fa-duotone fa-cat"></i> {t('sitename')}</div>
+                        <div className="inline-block text-3xl font-title capitalize"><i className="fa-duotone fa-cat"></i> Martii</div>
                     </Link>
                 </div>
 
