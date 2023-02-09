@@ -156,6 +156,26 @@
           "description": "Version 0.3"
         }
       ]
+    },
+    {
+      "title": "In Love with a Goddess",
+      "genre": "Video game",
+      "description": "A really short visual novel about a man who fell in love with a cute goddess!",
+      "workdescription": "Writing of the French and English versions",
+      "images": 2,
+      "nsfw": false,
+      "links": [
+        {
+          "name": "itch.io",
+          "url": "https://martiis-novels.itch.io/in-love-with-a-goddess"
+        }
+      ],
+      "history": [
+        {
+          "date": "03/07/2021",
+          "description": "Writing of the script"
+        }
+      ]
     }
   ],
   "reviews": [
