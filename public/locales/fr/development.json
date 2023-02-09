@@ -8,7 +8,7 @@
   "skillset": [
     {
       "skill": "Client",
-      "description": "HTML5, CSS3, JS ES6 / Bootstrap, Tailwind"
+      "description": "HTML5, CSS3, JS ES6 - Bootstrap, Tailwind"
     },
     {
       "skill": "Serveur",
@@ -20,7 +20,7 @@
     },
     {
       "skill": "Stack préféré",
-      "description": "React (Next.JS), Next-Auth, Tailwind, Prisma"
+      "description": "Next.JS, Next-Auth, Tailwind, Prisma"
     }
   ],
   "projects": [
@@ -118,6 +118,42 @@
       "history": [
         {
           "date": "01/10/2018"
+        }
+      ]
+    },
+    {
+      "title": "Waifu'ed",
+      "genre": "Site internet",
+      "description": "Une collection de personnes connues transformées en filles dans des animes, mangas, et jeux.",
+      "workdescription": "Tailwind, Axios. Site en anglais",
+      "nsfw": false,
+      "links": [
+        {
+          "name": "Site internet",
+          "url": "https://martii.dev/waifued"
+        }
+      ],
+      "history": [
+        {
+          "date": "08/02/2023"
+        }
+      ]
+    },
+    {
+      "title": "AnimeMap",
+      "genre": "Site internet",
+      "description": "Une carte de villes réelles où se passent des animes",
+      "workdescription": "JavaScript, Leaflet. Site en anglais",
+      "nsfw": false,
+      "links": [
+        {
+          "name": "Site internet",
+          "url": "https://martii.dev/animemap"
+        }
+      ],
+      "history": [
+        {
+          "date": "13/01/2023"
         }
       ]
     }

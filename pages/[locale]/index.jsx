@@ -13,8 +13,8 @@ export default function Index() {
     			<title>{`${t('sitename')} – ${t('home:title')}`}</title>
     		</Head>
 
-	        <main>
-	            <div className="md:p-10 pb-16 relative min-h-[90vh]">
+	        <main className="grow">
+	            <div className="md:p-10 relative">
 	        		<div className="hero h-[30rem]">
 					    <div className="text-center hero-content">
 					        <div className="max-w-md">

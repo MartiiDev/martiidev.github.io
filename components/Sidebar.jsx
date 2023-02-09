@@ -38,7 +38,7 @@ export function Drawer() {
 		                    </div>
 	                        <div className="flex items-center flex-none">
 	                            <a href="/" className="px-2 flex-0 btn btn-ghost md:px-4">
-		                            <div className="inline-block text-3xl font-title lowercase logo"><i className="fa-duotone fa-cat"></i> Martii</div>
+		                            <div className="inline-block text-3xl font-title capitalize"><i className="fa-duotone fa-cat"></i> Martii</div>
 	                            </a>
 	                        </div>
 	                    </div>

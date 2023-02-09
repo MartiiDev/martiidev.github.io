@@ -29,7 +29,7 @@ export default function Navbar() {
 
 	return (
         <div className="inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-base-300 bg-base-100 text-base-content sticky">
-            <div className="mx-auto navbar max-w-none flex items-stretch">
+            <div className="max-w-7xl mx-auto navbar max-w-none flex items-stretch">
                 <div className="flex-none">
                     <label htmlFor="main-menu" className="btn btn-square btn-ghost drawer-button md:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current">
@@ -39,7 +39,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex items-center flex-none">
                     <Link href="/" className="px-2 flex-0 btn btn-ghost md:px-4">
-                        <div className="inline-block text-3xl font-title lowercase"><i className="fa-duotone fa-cat"></i> {t('sitename')}</div>
+                        <div className="inline-block text-3xl font-title capitalize"><i className="fa-duotone fa-cat"></i> {t('sitename')}</div>
                     </Link>
                 </div>
 

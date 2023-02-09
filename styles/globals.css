@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Aldrich', sans-serif;
+    src: local('Aldrich'), url('Aldrich-Regular.ttf') format('truetype');
+}

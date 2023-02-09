@@ -19,7 +19,7 @@ export default function Development() {
     			<title>{`${t('sitename')} – ${t('development:title')}`}</title>
     		</Head>
 
-	        <main className="flex flex-col mx-5 md:mx-10 my-5 md:my-10">
+	        <main className="flex flex-col mx-5 my-5 md:my-10">
 			    <div className="grid p-4 card bg-base-300 rounded-box">
 			    	<p className="text-4xl underline underline-offset-4 mb-2">{t('development:title')}</p>
 			    	<p className="text-lg mb-3">{t('development:description')}</p>

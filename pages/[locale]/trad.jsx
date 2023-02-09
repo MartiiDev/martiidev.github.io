@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import { getStaticPaths, makeStaticProps } from '@/lib/getStatic'
@@ -9,6 +10,8 @@ import Card from '@/components/Card'
 const namespaces = ['common', 'translation'];
 export default function Translation() {
     const { t } = useTranslation(namespaces)
+    const [reviews, setReviews] = useState([])
+    useEffect(() => setReviews(t("translation:reviews").sort(() => 0.5 - Math.random()).slice(0, 2)), [])
 
     // Sort projects by most recent updates in projects' histories
 	const projects = orderBy(t('translation:projects'), [(proj) => moment(orderBy(proj.history, [(h) => moment(h.date, "DD/MM/YYYY").toDate()], ["desc"])[0].date, "DD/MM/YYYY").toDate()], ["desc"])
@@ -19,7 +22,7 @@ export default function Translation() {
     			<title>{`${t('sitename')} – ${t('translation:title')}`}</title>
     		</Head>
 
-	        <main className="flex flex-col mx-5 md:mx-10 my-5 md:my-10">
+	        <main className="flex flex-col mx-5 my-5 md:my-10">
 			    <div className="grid p-4 card bg-base-300 rounded-box">
 			    	<p className="text-4xl underline underline-offset-4 mb-2">{t('translation:title')}</p>
 			    	<p className="text-lg mb-3">{t('translation:description')}</p>
@@ -34,15 +37,6 @@ export default function Translation() {
 			    	</ul>
 			    	<i className="italic text-sm pt-1">{t('translation:evaluation')}</i>
 			    </div>
-
-				{/*<div className="alert mt-3 alert-info">
-					<div className="flex-1">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#2196f3" className="w-6 h-6 mx-2">
-					    	<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>                          
-					    </svg>
-						<label>Need to translate a game, a document, a website...? <a href="contact.html" className="underline">Contact me!</a></label>
-					</div>
-				</div>*/}
 
 			    <div className="divider my-8"></div>
 
@@ -62,13 +56,13 @@ export default function Translation() {
 					<p>{t('empty')}</p>
 				)}
 
-			    {t("translation:reviews").length > 0 && (
+			    {reviews.length > 0 && (
 			    	<>
 				    	<div className="divider mb-8"></div>
 
-				    	{t("translation:reviews").sort(() => 0.5 - Math.random()).slice(0, 2).map((review, index) => (
+				    	{reviews.map((review, index) => (
 							<div key={index} className={"chat mb-3 " + (index & 1 ? "chat-start" : "chat-end")}>
-								<div className="max-w-4xl chat-bubble bg-base-300 text-base-content">{review.review}</div>
+								<div className="max-w-4xl chat-bubble bg-base-300 text-base-content" dangerouslySetInnerHTML={{__html: review.review}}></div>
 							 	<div className="chat-footer">
 								    — {review.author}
 								</div>
