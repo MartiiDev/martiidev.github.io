@@ -1,7 +1,7 @@
 {
   "title": "Translation",
   "description": "Here is a list of some of the different projects I have worked on.",
-  "langlevels": "Language levels (Q1 2023):",
+  "langlevels": "Language levels (Q4 2024):",
   "cecrl": "A1 (beginner) to C2 (fluent)",
   "jlpt": "N5 (beginner) to N1 (fluent)",
   "nsfw": "NSFW",
@@ -29,7 +29,11 @@
     {
       "language": "Japanese",
       "level": "JLPT N5",
-      "explanation": "$t(jlpt)"
+      "explanation": "$t(jlpt)",
+      "badge": {
+        "icon": "fa-badge-check",
+        "label": "JLPT certified"
+      }
     }
   ],
   "projects": [
@@ -102,6 +106,18 @@
         {
           "date": "30/01/2023",
           "description": "Version 0.6.9"
+        },
+        {
+          "date": "13/05/2023",
+          "description": "Version 0.7"
+        },
+        {
+          "date": "24/04/2024",
+          "description": "Version 0.9"
+        },
+        {
+          "date": "03/10/2024",
+          "description": "Version 0.10"
         }
       ]
     },
