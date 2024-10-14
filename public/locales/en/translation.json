@@ -22,11 +22,6 @@
       }
     },
     {
-      "language": "Spanish",
-      "level": "CEFRL B1",
-      "explanation": "$t(cecrl)"
-    },
-    {
       "language": "Japanese",
       "level": "JLPT N5",
       "explanation": "$t(jlpt)",
@@ -34,6 +29,11 @@
         "icon": "fa-badge-check",
         "label": "JLPT certified"
       }
+    },
+    {
+      "language": "Spanish",
+      "level": "CEFRL B1",
+      "explanation": "$t(cecrl)"
     }
   ],
   "projects": [
