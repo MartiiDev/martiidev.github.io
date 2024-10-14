@@ -27,8 +27,12 @@
     },
     {
       "language": "Japonais",
-      "level": "JLPT N5",
-      "explanation": "$t(jlpt)"
+      "level": "JLPT N2",
+      "explanation": "$t(jlpt)",
+      "badge": {
+        "icon": "fa-badge-check",
+        "label": "Certifié JLPT N2"
+      }
     }
   ],
   "projects": [
