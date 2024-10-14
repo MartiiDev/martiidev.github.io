@@ -19,7 +19,7 @@ const Twemoji = ({ size = 15, emoji = isRequired() }) => {
 
   return (
     <Image
-      src={`https://twemoji.maxcdn.com/v/latest/svg/${img}.svg`}
+      src={`https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/${img}.svg`}
       height={size}
       width={size}
       alt={emoji}
