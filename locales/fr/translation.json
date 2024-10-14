@@ -1,7 +1,7 @@
 {
   "title": "Traduction",
   "description": "Voici une liste de quelques-uns des projets que j'ai pu traduire.",
-  "langlevels": "Niveaux de langue (Q1 2023) :",
+  "langlevels": "Niveaux de langue (Q4 2024) :",
   "cecrl": "A1 (débutant) à C2 (bilingue)",
   "jlpt": "N5 (débutant) à N1 (bilingue)",
   "evaluation": "Auto-évalué sauf mention contraire.",
@@ -21,14 +21,18 @@
       }
     },
     {
+      "language": "Japonais",
+      "level": "JLPT N2",
+      "explanation": "$t(jlpt)",
+      "badge": {
+        "icon": "fa-badge-check",
+        "label": "Certifié JLPT"
+      }
+    },
+    {
       "language": "Espagnol",
       "level": "CECRL B1",
       "explanation": "$t(cecrl)"
-    },
-    {
-      "language": "Japonais",
-      "level": "JLPT N5",
-      "explanation": "$t(jlpt)"
     }
   ],
   "projects": [
@@ -101,6 +105,18 @@
         {
           "date": "30/01/2023",
           "description": "Version 0.6.9"
+        },
+        {
+          "date": "13/05/2023",
+          "description": "Version 0.7"
+        },
+        {
+          "date": "24/04/2024",
+          "description": "Version 0.9"
+        },
+        {
+          "date": "03/10/2024",
+          "description": "Version 0.10"
         }
       ]
     },
