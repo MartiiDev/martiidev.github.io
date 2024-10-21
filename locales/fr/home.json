@@ -4,7 +4,7 @@
   "cta": "Qui suis-je ?",
   "about": {
     "href": "info",
-    "header": "Moi c'est Edgar, alias Martii la plupart du temps. Qu'est ce que vous voulez savoir ?",
+    "header": "Moi c'est Edgar, alias <i>Martii</i> la plupart du temps. Qu'est ce que vous voulez savoir ?",
     "section1": "Qui suis-je ?",
     "content1": "Je suis un jeune français de {{age}} ans passionné par les langues étrangères et les nouvelles technologies. Je fais actuellement des études européennes en anglais et je code pendant mon temps libre. J'adore aussi le Japon, donc ne soyez pas étonné si un bon nombre de mes projets tournent autour de ça.",
     "section2": "Pourquoi <i>Martii</i> ?",

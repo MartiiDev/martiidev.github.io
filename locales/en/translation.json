@@ -1,10 +1,9 @@
 {
   "title": "Translation",
-  "description": "Here is a list of some of the different projects I have worked on.",
+  "description": "Here is a list of some of the projects I have worked on.",
   "langlevels": "Language levels (Q4 2024):",
   "cecrl": "A1 (beginner) to C2 (fluent)",
   "jlpt": "N5 (beginner) to N1 (fluent)",
-  "nsfw": "NSFW",
   "evaluation": "Self-assessed unless otherwise stated.",
   "workdescription": "What I have done",
   "levels": [
@@ -18,16 +17,16 @@
       "explanation": "$t(cecrl)",
       "badge": {
         "icon": "fa-badge-check",
-        "label": "Cambridge certified"
+        "label": "Certified"
       }
     },
     {
       "language": "Japanese",
-      "level": "JLPT N5",
+      "level": "JLPT N2",
       "explanation": "$t(jlpt)",
       "badge": {
         "icon": "fa-badge-check",
-        "label": "JLPT certified"
+        "label": "Certified"
       }
     },
     {
@@ -58,6 +57,10 @@
         {
           "date": "26/10/2022",
           "description": "Demo"
+        },
+        {
+          "date": "20/03/2023",
+          "description": "Update"
         }
       ]
     },
@@ -71,7 +74,7 @@
       "links": [
         {
           "name": "itch.io",
-          "url": "https://extralife-nsfw.itch.io/extralife"
+          "url": "https://the-end-of-time.itch.io/goodbye-eternity"
         },
         {
           "name": "F95zone",

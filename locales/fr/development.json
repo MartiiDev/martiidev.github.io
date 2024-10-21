@@ -4,7 +4,7 @@
   "notonly": "C'est évidemment une liste raccourcie, car je ne peux pas tout lister.",
   "workdescription": "Ce que j'ai fait ou utilisé",
   "startedOn": "Commencé le",
-  "skills": "Compétences (Q1 2023):",
+  "skills": "Compétences (Q4 2024):",
   "skillset": [
     {
       "skill": "Client",
@@ -20,7 +20,7 @@
     },
     {
       "skill": "Stack préféré",
-      "description": "Next.JS, Next-Auth, Tailwind, Prisma"
+      "description": "React (Next.JS), Tailwind, Prisma"
     }
   ],
   "projects": [

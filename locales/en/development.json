@@ -4,11 +4,11 @@
   "notonly": "This is obviously a shortened list, as I can't list everything.",
   "workdescription": "What I've done or used",
   "startedOn": "Started on",
-  "skills": "Skills (Q1 2023):",
+  "skills": "Skills (Q4 2024):",
   "skillset": [
     {
       "skill": "Frontend",
-      "description": "HTML5, CSS3, JS ES6 / Bootstrap, Tailwind"
+      "description": "HTML5, CSS3, JS ES6 - Bootstrap, Tailwind"
     },
     {
       "skill": "Backend",
@@ -20,7 +20,7 @@
     },
     {
       "skill": "Favorite stack",
-      "description": "React (Next.JS), Next-Auth, Tailwind, Prisma"
+      "description": "React (Next.JS), Tailwind, Prisma"
     }
   ],
   "projects": [
