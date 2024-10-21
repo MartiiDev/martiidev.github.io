@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+      // "@/components/*": ["components/*"],
+      // "@/styles/*": ["styles/*"],
+      // "@/public/*": ["public/*"],
+      // "@/lib/*": ["lib/*"],
+    }
+  }
+}
